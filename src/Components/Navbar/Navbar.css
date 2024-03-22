@@ -4,6 +4,7 @@
     align-items: center;
     box-shadow: 0 1px 3px -2px black;
     padding: 15px 70px;
+    background: black;
 }
 .nav-logo{
     display: flex;
@@ -14,7 +15,7 @@
     width: 45px;
 }
 .nav-logo p{
-    color: #171717;
+    color: white;
     font-size: 28px;
     font-weight: 600;
 }
@@ -36,12 +37,25 @@
     gap: 3px;
     cursor: pointer;
 }
+
+.nav-menu li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 650;
+}
+
 .nav-menu hr{
     border: none;
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: white;
 }
 .nav-login-cart{
     display: flex;
@@ -49,24 +63,32 @@
     gap: 30px;
 }
 
-.nav-login-cart button{
-    width: 130px;
-    height: 45px;
-    outline: none;
-    border: 1px solid #7a7a7a;
-    border-radius: 75px;
-    color: #515151;
-    font-size: 20px;
-    font-weight: 500;
-    background: white;
+.nav-login-cart button {
     cursor: pointer;
-}
-.nav-login-cart button:active{
-    background: #f3f3f3;
-}
+    border: 3px solid rgba(104, 85, 224, 0.6);
+    border-radius: 3px;
+    font-weight: 800;
+    margin: 0 10px;
+    width: 120px;
+    padding: 10px 0;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    transition: 0.4s;
+    background: black;
+    color: rgba(104, 85, 224, 0.6);
+    font-size: 20px;
+  }
+
+.nav-login-cart button:hover {
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+  }
+
 .nav-login-cart img{
     width: 35px;
+    color: white;
 }
+
 .nav-cart-count{
     width: 18px;
     height: 18px;
@@ -77,7 +99,7 @@
     margin-top: -30px;
     margin-left: -40px;
     font-size: 14px;
-    background: red;
+    background: rgba(104, 85, 224, 1);
     color: white;
 }
 .nav-dropdown{
@@ -112,10 +134,10 @@
         height: 80px;
         width: 100%;
         position: absolute;
-        background-color: white;
+        background-color: black;
         justify-content: center;
         top: 60px;
-        left: 0;
+        right: 2px;
     }
     .nav-menu-visible{
         display: flex;

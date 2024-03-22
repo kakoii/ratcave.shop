@@ -25,10 +25,10 @@ const Navbar = () => {
       </Link>
       <img onClick={dropdown_toggle} className='nav-dropdown' src={nav_dropdown} alt="" />
       <ul ref={menuRef} className="nav-menu">
-        <li onClick={()=>{setMenu("shop")}}><Link to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("mens")}}><Link to='/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("womens")}}><Link to="womens">Women</Link>{menu==="womens"?<hr/>:<></>}</li>
-        <li onClick={()=>{setMenu("kids")}}><Link to='/kids'>Kids</Link>{menu==="kids"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("shop")}}><Link to='/'><a>Shop</a></Link>{menu==="shop"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("mens")}}><Link to='/mens'><a>Men</a></Link>{menu==="mens"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("womens")}}><Link to="womens"><a>Women</a></Link>{menu==="womens"?<hr/>:<></>}</li>
+        <li onClick={()=>{setMenu("kids")}}><Link to='/kids'><a>Kids</a></Link>{menu==="kids"?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>

@@ -6,21 +6,31 @@
 }
 .item p{
     margin: 6px 0px;
+    font-weight: 500;
+    color: white;
 }
 .item-prices{
     display: flex;
     gap: 15px;
 }
 .item-price-new{
-    color: #374151;
-    font-size: 18px;
-    font-weight: 600;
+    color: black;
+    font-size: 24px;
+    font-weight: 800;
+    background: rgba(104, 85, 224, 0.6);
+    border:5px solid rgba(104, 85, 224, 0.6);
+    border-radius: 7px;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
 }
 .item-price-old{
-    color: #8c8c8c;
-    font-size: 18px;
+    color: #000000;
+    font-size: 24px;
     font-weight: 500;
     text-decoration: line-through;
+    background: white;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 3px;
 }
 .item:hover{
     transform: scale(1.05);

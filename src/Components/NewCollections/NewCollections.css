@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
-   margin-bottom: 100px;
+    background:  linear-gradient(180deg, rgba(104, 85, 224, 0.6), black 110%);
+    padding-top: 50px;
 }
 .new-collections h1{
-    color: #171717;
+    color: #000000;
     font-size: 40px;
     font-weight: 600;
 }
@@ -14,8 +15,9 @@
     width: 150px;
     height: 4px;
     border-radius: 10px;
-    background: #252525;
-  }
+    background: black;
+    border-color: black;
+}
 .collections{
     display: flex;
     flex-wrap: wrap;

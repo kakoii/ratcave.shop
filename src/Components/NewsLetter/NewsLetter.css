@@ -1,6 +1,5 @@
 .newsletter{
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -8,19 +7,18 @@
     justify-content: center;
     margin: auto;
     padding: 50px 8%;
-    margin-bottom: 100px;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    background:  linear-gradient(180deg, rgb(15, 15, 15) 30%, black);
     gap: 20px;
 }
 
 .newsletter h1{
-    color: #454545;
+    color: white;
     font-size: 45px;
     font-weight: 600;
 }
 
 .newsletter p{
-    color: #454545;
+    color: white;
     font-size: 18px;
 }
 

@@ -8,14 +8,14 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className="hero-left">
-        <h2>NEW ARRIVALS ONLY</h2>
+        <h2>welcome to ratcave.shop</h2>
         <div>
             <div className="hero-hand-icon">
-                <p>new</p>
+                <p>merch</p>
                 <img src={hand_icon} alt="" />
             </div>
-            <p>collections</p>
-            <p>for everyone</p>
+            <p>like you've</p>
+            <p>never seen...</p>
         </div>
         <div className="hero-latest-btn">
             <div>Latest Collection</div>
