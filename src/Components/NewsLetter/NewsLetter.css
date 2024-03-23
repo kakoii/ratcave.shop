@@ -31,7 +31,7 @@
     max-width: 650px;
     height: 60px;
     border-radius: 80px;
-    border: 1px solid #e3e3e3;
+    border: 5px solid #ffffff;
 }
 
 .newsletter input{
@@ -39,7 +39,7 @@
     padding-left: 30px;
     border: none;
     outline: none;
-    color: #616161;
+    color: #000000;
     font-family: Poppins;
     font-size: 16px;
 }
@@ -50,8 +50,9 @@
     border-radius: 80px;
     background: black;
     color: white;
-    font-size: 16px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* ----------- media query--------- */
